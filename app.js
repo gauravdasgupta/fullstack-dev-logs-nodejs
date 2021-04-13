@@ -1,5 +1,3 @@
-function greeter(){
-    console.log("Hello Friends, I am nodejs");
-}
+const utility = require('./utility');
 
-greeter();
+utility.greeter();
